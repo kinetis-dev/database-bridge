@@ -10,16 +10,16 @@
     ],
     "require": {
         "php": "^8.4",
-        "kinetis/framework": "dev-main",
-        "kinetis/persistence": "dev-main",
+        "kinetis/framework": "^1.11.2",
+        "kinetis/persistence": "^1.4.0",
         "psr/log": "^3.0.2"
     },
     "require-dev": {
         "infection/infection": "^0.35.0",
-        "kinetis/mcp": "dev-main",
-        "kinetis/orm": "dev-main",
-        "kinetis/query-builder": "dev-main",
-        "kinetis/queue": "dev-main",
+        "kinetis/mcp": "^1.5.2",
+        "kinetis/orm": "^1.6.0",
+        "kinetis/query-builder": "^1.5.0",
+        "kinetis/queue": "^1.3.2",
         "nyholm/psr7": "^1.8.2",
         "phpstan/phpstan": "^2.2.8",
         "phpunit/phpunit": "^13.3.3",
@@ -46,32 +46,6 @@
             "discovery": "Kinetis\\DatabaseBridge\\OrmMetadata"
         }
     },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../mcp"
-        },
-        {
-            "type": "path",
-            "url": "../queue"
-        },
-        {
-            "type": "path",
-            "url": "../orm"
-        },
-        {
-            "type": "path",
-            "url": "../query-builder"
-        },
-        {
-            "type": "path",
-            "url": "../framework"
-        },
-        {
-            "type": "path",
-            "url": "../persistence"
-        }
-    ],
     "config": {
         "sort-packages": true,
         "allow-plugins": {
